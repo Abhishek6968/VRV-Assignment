@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+    <style>
+        /* General Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8d7da;
+            color: #721c24;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        /* Styling the Heading */
+        h1 {
+            font-size: 2rem;
+            color: #721c24;
+            background-color: #f8d7da;
+            padding: 1rem;
+            border: 1px solid #f5c6cb;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        /* Button Styling */
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            background-color: #f5c6cb;
+            color: #721c24;
+            padding: 0.5rem 1rem;
+            border: 1px solid #721c24;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #721c24;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Error: <%= message %></h1>
+    <a href="/api/auth/logout">EXIT</a>
+</body>
+</html>

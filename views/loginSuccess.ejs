@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Successful</title>
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+    <h1>Login Successful!</h1>
+    <p>Welcome, <strong><%= username %></strong>!</p>
+    <p>Your role: <strong><%= role %></strong></p>
+    <a href="/api/auth/login">EXIT</a> <!-- Redirecting to dashboard or other page -->
+
+    <!-- Optionally, you can display the token if needed -->
+    <p>Your token (use for further requests): <%= token %></p>
+</body>
+</html>
