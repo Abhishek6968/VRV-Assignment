@@ -33,7 +33,8 @@ This project provides an intuitive UI and ensures that users interact with the s
 git clone <repository-url>   # Clone the repository  
 cd <repository-folder>       # Navigate to the project directory  
 npm install                  # Install required dependencies  
-nodemon index.js             # Start the server  
+nodemon index.js             # Start the server
+```
 
 
 
